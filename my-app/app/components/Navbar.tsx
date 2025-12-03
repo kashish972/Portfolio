@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Resume Button */}
           <motion.li whileHover={{ scale: 1.05 }}>
             <a
-              href="./Kashish_Resume.pdf"
+              href="./Kashish_Resume_1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
