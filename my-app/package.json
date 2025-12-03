@@ -18,7 +18,9 @@
     "react-icons": "^5.5.0",
     "react-toastify": "^11.0.5",
     "react-type-animation": "^3.2.0",
-    "three": "^0.181.2"
+    "reactflow": "^11.11.4",
+    "three": "^0.181.2",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -61,6 +61,16 @@ export default function Hero() {
           >
             View Resume
           </motion.a>
+          <motion.a
+    href="/workFlow" // route where your workflow tool is hosted
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="px-6 py-3 bg-purple-600 text-white rounded-xl shadow-lg"
+  >
+    Live Workflow Demo
+  </motion.a>
         </div>
       </div>
     </section>

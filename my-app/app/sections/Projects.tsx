@@ -25,13 +25,13 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       desc: "Modern Next.js portfolio with 3D & animations.",
-      link: "",
+      link: "https://portfolio-lac-eight-46.vercel.app/",
     },
   ];
 
   const handleClick = (link: string | undefined) => {
     if (!link) {
-      toast.info("This is a company project, not a personal link.", {
+      toast.info("This is a company project, not a personal link. but you can check a small workflow demo", {
         position: "top-center",
         autoClose: 3000,
         hideProgressBar: false,
