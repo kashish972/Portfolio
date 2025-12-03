@@ -9,7 +9,7 @@ export default function Experience() {
       role: "Full Stack Developer",
       company: "Cloud Analogy",
       time: "February 2025 – Present",
-      desc: "Worked on Project Crux. Implemented AG-Grid tables with server-side pagination, sorting, and filtering. Integrated Adobe Sign & DocuSign. Enabled webhooks for real-time status updates (agreement created, signed, completed, etc.). Worked on React pdf renderer library.",
+      desc: "Worked on Project Trux. Implemented AG-Grid tables with server-side pagination, sorting, and filtering. Integrated Adobe Sign & DocuSign. Enabled webhooks for real-time status updates (agreement created, signed, completed, etc.). Worked on React pdf renderer library.",
     },
     {
       role: "Intern",

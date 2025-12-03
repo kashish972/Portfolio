@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 export default function Projects() {
   const projects = [
     {
-      title: "Crux Workflow Automation",
+      title: "Trux Workflow Automation",
       desc: "Workflow builder with nodes, edges, and React Query, Adobe-sign and Docu-sign Integration",
       link: "",
     },
