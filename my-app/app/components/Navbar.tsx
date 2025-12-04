@@ -83,7 +83,7 @@ export default function Navbar() {
 
           <li>
             <a
-              href="/Kashish_Arora_Resume.pdf"
+              href="./Kashish_Resume_1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
