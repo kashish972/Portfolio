@@ -26,7 +26,7 @@ export default function WorkflowCanvas() {
     useWorkflowStore();
 
   return (
-    <div className="flex-1 h-[650px] mt-20 border border-gray-200 rounded">
+    <div className="flex-1 w-full h-[60vh] md:h-auto border border-gray-200 rounded relative">
       <ReactFlow
         nodes={nodes}
         edges={edges}

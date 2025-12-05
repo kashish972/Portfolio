@@ -9,13 +9,13 @@ export default function NodeSettings() {
 
   if (!selectedNode)
     return (
-      <div className="w-72 p-4 bg-gray-800 border-l border-gray-700">
+      <div className="w-full md:w-72 p-4 bg-gray-800 border-t md:border-t-0 md:border-l border-gray-700 shrink-0">
         <p className="text-gray-400">Select a node to edit</p>
       </div>
     );
 
   return (
-    <div className="w-72 p-4 bg-gray-800 border-l border-gray-700">
+    <div className="w-full md:w-72 p-4 bg-gray-800 border-t md:border-t-0 md:border-l border-gray-700 shrink-0">
       <h2 className="font-bold mb-4">Node Settings</h2>
 
       <label className="text-sm">Label</label>

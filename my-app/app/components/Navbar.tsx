@@ -18,16 +18,16 @@ export default function Navbar() {
     <nav className="fixed w-full top-0 left-0 z-50 backdrop-blur-md bg-black/40 shadow-md">
       <div className="max-w-full mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo + Name */}
-<a href="#hero" className="flex items-center gap-2 cursor-pointer">
-  <Image
-    src="/logo.jpg"
-    alt="Logo"
-    width={40}
-    height={40}
-    className="rounded-full"
-  />
-  <span className="text-white text-2xl font-bold">Kashish Arora</span>
-</a>
+        <a href="#hero" className="flex items-center gap-2 cursor-pointer">
+          <Image
+            src="/logo.jpg"
+            alt="Logo"
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
+          <span className="text-white text-2xl font-bold">Kashish Arora</span>
+        </a>
 
 
         {/* Desktop Links */}
@@ -59,7 +59,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white text-3xl focus:outline-none"
+            className="text-white text-3xl focus:outline-none flex items-center justify-center leading-none mr-4"
           >
             {isOpen ? "✖" : "☰"}
           </button>
@@ -71,7 +71,7 @@ export default function Navbar() {
         <motion.ul
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden flex flex-col gap-4 px-6 pb-4 bg-black/80"
+          className="md:hidden flex flex-col gap-4 px-6 pb-4 bg-black/80 max-h-[85vh] overflow-y-auto z-[100]"
         >
           {navLinks.map((link) => (
             <li key={link.name} className="text-white py-2 border-b border-gray-700">
