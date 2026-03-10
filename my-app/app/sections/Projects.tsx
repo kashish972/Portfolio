@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: "3D Visualizer",
       desc: "Modern Next.js 3D visualization with React Three Fiber and three.js also razorpay integration.",
-      link: "https://ai-visualizer-frontend.vercel.app/",
+      link: "https://frontend-visualizer-one.vercel.app/",
     },
     {
       title: "ChatBox",
