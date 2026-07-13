@@ -13,6 +13,23 @@ export default function Projects() {
       link: "",
     },
     {
+  title: "PG Manager",
+  desc: `Full-stack PG management system with tenant management, room allocation, rent tracking, Razorpay payments, reports, and an admin dashboard.
+
+Demo Access
+
+PG Owner
+PG: satkar pg
+Email: nitin@gmail.com
+Password: 12345678
+
+PG Member
+PG: satkar pg
+Email: kashish@gmail.com
+Password: 12345678`,
+  link: "https://pg-manager-xi.vercel.app/",
+},
+    {
       title: "3D Visualizer",
       desc: "Modern Next.js 3D visualization with React Three Fiber and three.js also razorpay integration.",
       link: "https://frontend-visualizer-one.vercel.app/",
