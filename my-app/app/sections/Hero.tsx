@@ -52,7 +52,7 @@ export default function Hero() {
           </motion.a>
 
           <motion.a
-            href="./Kashish_Resume_1.pdf"
+            href="./Kashish_Arora_Resume_5.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
