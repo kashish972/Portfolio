@@ -7,7 +7,7 @@ import Experience from "./sections/Experince";
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main className="w-full min-h-screen">
       <Hero />
       <About />
       <Experience />
